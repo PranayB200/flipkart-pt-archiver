@@ -1,0 +1,9 @@
+# This file will contain the attributes of pt-archiver query that are required for 
+# archival of 'reservation' table only.
+
+driving_table_name: reservations
+reservations_criteria: {insert where-clause}
+reservations_dependent_columns: {EXPLORE}
+dependent_table_name: {EXPLORE}
+
+# Following this will be various joins and their IDs.

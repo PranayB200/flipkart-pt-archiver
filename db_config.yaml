@@ -1,0 +1,16 @@
+# This file will contain all the attribites of pt-archiver queries that will remain consistent
+# throughout. (Irrespective of table being archived).
+
+dbusername: pt-archiver
+dbpassword: xxx
+db_name: xxx
+slave_host: ip_address
+master_host: ip_address
+check_lag_slave_host:
+  - ip_address
+  - ip_address
+max_lag: 60
+limit: 5000
+progress: 5000
+sleep: 0
+intermediate_table_prefix: archivalInProgress_
